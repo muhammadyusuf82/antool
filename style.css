@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./imgs/bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar-toggler{
+    background-color: rgba(19, 22, 26, 0.508) !important;
+    color: white !important;
+}
+.bg-2{
+    background-color: rgba(35, 37, 38, 0.377);
+    border-radius: 20px;
+}
+.dropdown-menu a{
+    text-decoration: none;
+}
+.custom-btn-1{
+    background-color: rgb(255, 135, 86);
+    color: rgb(30, 37, 43);
+    border-radius: 15px;
+    border: 1px solid transparent;
+    transition: all .3s;
+}
+.custom-btn-1:hover{
+    border: 1px solid rgb(255, 135, 86);
+    color: white;
+}
+.anim{
+    width: auto;
+    height: auto;
+}
+.inputs{
+    box-shadow: 5px rgb(255, 135, 86);
+}
+.bag{
+    box-shadow: 36px rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: rgba(19, 22, 26, 0.508);
+}
+.bord{
+    border-top: 1px solid rgb(49, 53, 56);
+}
